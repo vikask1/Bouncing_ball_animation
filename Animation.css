@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(46, 48, 146);
+    margin: 0px;
+    padding: 0%;
+}
+
+#anchor {
+    margin: 30%;
+    color: lavender;
+}
+
+#main_heading {
+    margin: 0% 30% 0% 30%;
+    position: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(41, 24, 24);
+    background-color: rgb(185, 192, 189);
+    border: rgb(208, 218, 217);
+    border-width: 5px;
+    border-style: solid;
+    padding: 2px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+#ball {
+    height: 100px;
+    width: 100px;
+    margin: 50%;
+    background-color: tomato;
+    animation-name: bouncingBall;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: reverse;
+}
+
+@keyframes bouncingBall {
+    0% {
+        border-radius: 100%;
+        margin-top: 50%;
+    }
+    50% {
+        border-radius: 70%;
+        margin-top: 70%;
+    }
+    100% {
+        border-radius: 100%;
+        margin-top: 50%;
+    }
+}
+
+
